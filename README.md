@@ -1,2 +1,3 @@
-# JsCharter
-JsCharter the better Charting library
+# VisualAxis
+
+Just another Javascript Charting libary
