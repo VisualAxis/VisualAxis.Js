@@ -26,6 +26,7 @@
     "format": "npx prettier --config .prettierrc.json src/**/* --write"
   },
   "devDependencies": {
-    "prettier": "^3.8.5"
+    "prettier": "^3.8.5",
+    "typescript": "^6.0.3"
   }
 }
