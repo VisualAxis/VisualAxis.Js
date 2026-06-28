@@ -20,10 +20,11 @@
   },
   "license": "ISC",
   "author": "Leonas Carstens, Maxim Nuss",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "format": "npx prettier --config .prettierrc.json src/**/* --write"
+    "format": "npx prettier --config .prettierrc.json src/**/* --write",
+    "build": "npx tsc --project tsconfig.json"
   },
   "devDependencies": {
     "prettier": "^3.8.5",
